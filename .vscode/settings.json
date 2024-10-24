@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    ".imgmk/": true,
+    ".vscode/": true
+  }
+}
