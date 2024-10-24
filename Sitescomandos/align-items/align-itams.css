@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f3e5f5; /* Fundo roxo claro */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    background-color: #7b1fa2; /* Roxo escuro */
+    color: white;
+}
+
+td {
+    background-color: #ede7f6; /* Fundo cinza roxo claro */
+    padding: 10px;
+    height: 100px; /* Altura para ver o efeito do align-items */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #d1c4e9; /* Fundo das listas */
+    color: #424242; /* Cor do texto */
+}
+
+/* Estilos para aling-items */
+.align1 {
+    align-items: flex-start; /* Alinha ao topo */
+}
+
+.align2 {
+    align-items: flex-end; /* Alinha à parte inferior */
+}
+
+.align3 {
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.align4 {
+    align-items: stretch; /* Estica para preencher todo o espaço vertical */
+}

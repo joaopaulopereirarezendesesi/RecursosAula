@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fce4ec; /* Rosa muito claro */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+th {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #d81b60; /* Rosa escuro */
+    color: white;
+}
+
+td {
+    background-color: #f48fb1; /* Rosa suave */
+    padding: 10px;
+    height: 150px; /* Altura maior para destacar o shrink */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    gap: 10px;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Estilos para flex-shrink */
+.shrink {
+    flex-shrink: 1; /* Item pode encolher */
+}
+
+.no-shrink {
+    flex-shrink: 0; /* Item não encolhe */
+}
+
+/* Ajuste de estilo para os itens da lista */
+li {
+    background-color: #c2185b; /* Rosa mais escuro */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}

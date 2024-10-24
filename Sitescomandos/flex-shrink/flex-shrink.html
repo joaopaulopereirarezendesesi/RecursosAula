@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./flex-shrink.css" />
+    <title>Exemplo Flex-shrink</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>FLEX-SHRINK</h1>
+
+      <table>
+        <tr>
+          <th>.shrink (flex-shrink: 1)</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li class="shrink">Item 1</li>
+              <li class="shrink">Item 2</li>
+              <li class="shrink">Item 3</li>
+              <li class="shrink" style="width: 200px">Item 4</li>
+              <!-- Tamanho fixo -->
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th>.no-shrink (flex-shrink: 0)</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li class="no-shrink" style="width: 200px">Item 1</li>
+              <!-- Tamanho fixo -->
+              <li class="no-shrink" style="width: 200px">Item 2</li>
+              <li class="no-shrink" style="width: 200px">Item 3</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

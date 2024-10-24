@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e0f7fa; /* Azul claro */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    background-color: #006064; /* Azul escuro */
+    color: white;
+}
+
+td {
+    background-color: #b2ebf2; /* Azul suave */
+    padding: 10px;
+    height: 100px; /* Altura para ver o efeito do flex-direction */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #4dd0e1; /* Azul */
+    color: #424242; /* Cor do texto */
+}
+
+/* Estilos para flex-direction */
+.row {
+    flex-direction: row; /* Alinha os itens em linha (horizontal) */
+}
+
+.row-reverse {
+    flex-direction: row-reverse; /* Alinha os itens na direção oposta (linha inversa) */
+}
+
+.column {
+    flex-direction: column; /* Alinha os itens em coluna (vertical) */
+}
+
+.column-reverse {
+    flex-direction: column-reverse; /* Alinha os itens na direção oposta (coluna inversa) */
+}

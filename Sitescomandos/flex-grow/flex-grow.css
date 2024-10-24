@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e8f5e9; /* Verde muito claro */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+H1 {
+    text-align: center;
+}
+
+th, td {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+th {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    background-color: #388e3c; /* Verde escuro */
+    color: white;
+}
+
+td {
+    background-color: #81c784; /* Verde suave */
+    padding: 10px;
+    height: 150px; /* Altura maior para destacar o grow */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    gap: 10px;
+    height: 100%;
+}
+
+/* Estilos para flex-grow */
+.grow {
+    flex-grow: 1; /* Item cresce para ocupar espaço extra */
+}
+
+.no-grow {
+    flex-grow: 0; /* Item não cresce */
+}
+
+/* Ajuste de estilo para os itens da lista */
+li {
+    background-color: #2e7d32; /* Verde mais escuro */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f1f8e9; /* Verde claro */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+h1 {
+        text-align: center;
+}
+
+th, td {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+th {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    background-color: #558b2f; /* Verde escuro */
+    color: white;
+}
+
+td {
+    background-color: #aed581; /* Verde suave */
+    padding: 10px;
+    height: 150px; /* Altura maior para destacar o wrap */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #8bc34a; /* Verde */
+    color: white;
+    gap: 10px;
+    height: 100%;
+}
+
+/* Estilos para flex-wrap */
+.nowrap {
+    flex-wrap: nowrap; /* Itens permanecem em uma única linha */
+}
+
+.wrap {
+    flex-wrap: wrap; /* Itens quebram para a linha seguinte */
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse; /* Itens quebram, mas de forma reversa */
+}
+
+/* Ajuste de estilo para os itens da lista */
+li {
+    background-color: #33691e; /* Verde escuro */
+    padding: 10px;
+    border-radius: 4px;
+}
