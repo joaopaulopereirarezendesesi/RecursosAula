@@ -138,7 +138,7 @@ Essas linhas e colunas têm dois comandos principais que, como já disse o profe
     >     - **Eixo Principal**: A direção dos itens (horizontal ou vertical) definida pela `flex-direction`.
     >     - **Eixo Cruzado**: Perpendicular ao eixo principal (se o eixo principal for horizontal, o eixo cruzado será vertical, e vice-versa).
 
-  Abrir `img`/`imagem3`.
+  Abrir `img`/`imagem3 e 4`.
 
 - **`align-itans:`** A propriedade **`align-items:`** é usada no Flexbox para alinhar itens ao longo do **eixo cruzado**, que pode ser vertical ou horizontal, dependendo da direção do eixo principal. Quando o contêiner flexível usa a direção padrão (`flex-direction: row`), o eixo cruzado é vertical. Se a direção for alterada para `flex-direction: column`, o eixo cruzado se torna horizontal. Essa propriedade decide como os itens são distribuídos no eixo cruzado, seja no topo, centro ou parte inferior.
 
