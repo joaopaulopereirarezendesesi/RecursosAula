@@ -167,3 +167,4 @@ Assim, o `align-items` ajusta o alinhamento no eixo oposto à direção principa
 - **`flex-basis:`** define o tamanho inicial do item antes que o espaço extra seja distribuído. Ele pode ser definido em pixels, porcentagens, etc.
   - Por exemplo, `flex-basis: 100px;` define que o item deve ter 100 pixels de largura antes de crescer ou encolher.
 
+> Abrir `Sitescomandos`/`Abrir todos os arquivos`/`Abrir liveserver de cada index`.
