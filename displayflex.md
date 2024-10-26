@@ -119,13 +119,6 @@ Essas linhas e colunas têm dois comandos principais que, como já disse o profe
 
 ## Comandos Principais do Flexbox
 
-- **`justify-content:`** é usado para alinhar itens em uma linha (horizontalmente). Ele ajuda a decidir se os itens ficam juntos no centro, separados, ou alinhados à esquerda ou à direita. Imagine organizar coisas em uma prateleira: você escolhe como elas ficam distribuídas.
-  - `flex-start`: alinha os itens ao início do contêiner.
-  - `flex-end`: alinha os itens ao final do contêiner.
-  - `center`: centraliza os itens.
-  - `space-between`: coloca o maior espaço possível entre os itens.
-  - `space-around`: coloca espaços iguais ao redor de cada item.
-
 - **`flex-direction:`** define a direção em que os itens flexíveis são dispostos no contêiner. Você pode escolher entre organizar os itens em linhas ou colunas.
   - `row`: organiza os itens em uma linha (horizontalmente), que é o padrão.
   - `row-reverse`: organiza os itens em uma linha, mas na direção oposta.
@@ -140,10 +133,15 @@ Essas linhas e colunas têm dois comandos principais que, como já disse o profe
 
   Abrir `img`/`imagem3 e 4`.
 
-- **`align-itans:`** A propriedade **`align-items:`** é usada no Flexbox para alinhar itens ao longo do **eixo cruzado**, que pode ser vertical ou horizontal, dependendo da direção do eixo principal. Quando o contêiner flexível usa a direção padrão (`flex-direction: row`), o eixo cruzado é vertical. Se a direção for alterada para `flex-direction: column`, o eixo cruzado se torna horizontal. Essa propriedade decide como os itens são distribuídos no eixo cruzado, seja no topo, centro ou parte inferior.
 
-Imagine uma caixa de ovos que pode ser posicionada em pé (eixo cruzado vertical) ou deitada (eixo cruzado horizontal). O `align-items` define se os ovos vão ficar encostados no topo, no meio ou na parte inferior, dependendo de como a caixa é orientada.
+- **`justify-content:`** é usado para alinhar itens em uma linha (horizontalmente). Ele ajuda a decidir se os itens ficam juntos no centro, separados, ou alinhados à esquerda ou à direita. Imagine organizar coisas em uma prateleira: você escolhe como elas ficam distribuídas.
+  - `flex-start`: alinha os itens ao início do contêiner.
+  - `flex-end`: alinha os itens ao final do contêiner.
+  - `center`: centraliza os itens.
+  - `space-between`: coloca o maior espaço possível entre os itens.
+  - `space-around`: coloca espaços iguais ao redor de cada item.
 
+- **`align-items:`** A propriedade **`align-items:`** é usada no Flexbox para alinhar itens ao longo do **eixo cruzado**, que pode ser vertical ou horizontal, dependendo da direção do eixo principal. Quando o contêiner flexível usa a direção padrão (`flex-direction: row`), o eixo cruzado é vertical. Se a direção for alterada para `flex-direction: column`, o eixo cruzado se torna horizontal. Essa propriedade decide como os itens são distribuídos no eixo cruzado, seja no topo, centro ou parte inferior.
 - **`flex-start`**: alinha os itens no início do eixo cruzado (no topo para eixo vertical, à esquerda para eixo horizontal).
 - **`flex-end`**: alinha os itens no final do eixo cruzado (parte inferior para eixo vertical, à direita para eixo horizontal).
 - **`center`**: centraliza os itens ao longo do eixo cruzado, seja vertical ou horizontal.
