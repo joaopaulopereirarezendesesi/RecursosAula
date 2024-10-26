@@ -134,7 +134,7 @@ Essas linhas e colunas têm dois comandos principais que, como já disse o profe
   Abrir `img`/`imagem3 e 4`.
 
 
-- **`justify-content:`** é usado para alinhar itens em uma linha (horizontalmente). Ele ajuda a decidir se os itens ficam juntos no centro, separados, ou alinhados à esquerda ou à direita. Imagine organizar coisas em uma prateleira: você escolhe como elas ficam distribuídas.
+- **`justify-content:`** é usado para alinhar itens em uma linha (horizontalmente ou verticalmente, depende do flex-direction). Ele ajuda a decidir se os itens ficam juntos no centro, separados, ou alinhados à esquerda ou à direita. Imagine organizar coisas em uma prateleira: você escolhe como elas ficam distribuídas.
   - `flex-start`: alinha os itens ao início do contêiner.
   - `flex-end`: alinha os itens ao final do contêiner.
   - `center`: centraliza os itens.
