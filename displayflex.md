@@ -141,7 +141,7 @@ Essas linhas e colunas têm dois comandos principais que, como já disse o profe
   - `space-between`: coloca o maior espaço possível entre os itens.
   - `space-around`: coloca espaços iguais ao redor de cada item.
 
-- **`align-items:`** A propriedade **`align-items:`** é usada no Flexbox para alinhar itens ao longo do **eixo cruzado**, que pode ser vertical ou horizontal, dependendo da direção do eixo principal. Quando o contêiner flexível usa a direção padrão (`flex-direction: row`), o eixo cruzado é vertical. Se a direção for alterada para `flex-direction: column`, o eixo cruzado se torna horizontal. Essa propriedade decide como os itens são distribuídos no eixo cruzado, seja no topo, centro ou parte inferior.
+- **`align-items:`** A propriedade **`align-items:`** é usada no Flexbox para alinhar itens ao longo do **eixo cruzado**, que pode ser vertical ou horizontal, dependendo da direção do eixo principal. Quando o contêiner flexível usa a direção padrão (`flex-direction: row`), o eixo cruzado é vertical. Se a direção for alterada para `flex-direction: column`, o eixo cruzado se torna horizontal.
 - **`flex-start`**: alinha os itens no início do eixo cruzado (no topo para eixo vertical, à esquerda para eixo horizontal).
 - **`flex-end`**: alinha os itens no final do eixo cruzado (parte inferior para eixo vertical, à direita para eixo horizontal).
 - **`center`**: centraliza os itens ao longo do eixo cruzado, seja vertical ou horizontal.
