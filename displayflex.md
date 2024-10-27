@@ -36,6 +36,16 @@ Um ponto importante é que, embora todo container possa ter uma propriedade de d
 
 > **Nota:** É de extrema importância distinguir display, container e layout, porque quando nos referimos a `display: flex`, estamos usando a propriedade display para editar o layout de um container!
 
+```markdown
+
+IMPORTANTE: nao confundir TAG FILHA com container! 
+
+Tag filha: é a tag que faz parte do layout do container.
+
+Container: é a tag que abriga tags filhas, ou seja, "Um container é um elemento HTML usado para agrupar outros elementos".
+
+```
+
 ### Resumindo tudo:
 
 Todo `container` possui um layout que pode ser ajustado de maneira significativa utilizando a propriedade `display`.
