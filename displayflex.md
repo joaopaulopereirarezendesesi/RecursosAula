@@ -40,7 +40,7 @@ Um ponto importante é que, embora todo container possa ter uma propriedade de d
 
 IMPORTANTE: nao confundir TAG FILHA com container! 
 
-Tag filha: é a tag que faz parte do layout do container.
+Tag filha: é a tag que faz parte de um container, ou seja, ela é fila do container
 
 Container: é a tag que abriga tags filhas, ou seja, "Um container é um elemento HTML usado para agrupar outros elementos".
 
